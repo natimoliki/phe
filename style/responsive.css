@@ -293,6 +293,17 @@
 
 
 
+@-webkit-keyframes border-pulse {
+  0% {
+    border-color: #f00;
+  }
+  50% {
+    border-color: #0f0;
+  }
+  100% {
+    border-color: #00f;
+  }
+}
 
 
 

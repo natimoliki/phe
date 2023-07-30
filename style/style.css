@@ -876,8 +876,7 @@ tr:hover {
   );
   border-image: -webkit-gradient(
     linear,
-    left top,
-    right top,
+    left top, right top,
     from(#f00),
     color-stop(#0f0),
     color-stop(#00f),
