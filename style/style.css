@@ -919,6 +919,18 @@ tr:hover {
   }
 }
 
+@keyframes border-pulse {
+  0% {
+    border-color: #f00;
+  }
+  50% {
+    border-color: #0f0;
+  }
+  100% {
+    border-color: #00f;
+  }
+}
+
 h1 {
   -webkit-animation-duration: 5s;
   animation-duration: 5s;
@@ -929,8 +941,8 @@ h1 {
 }
 @-webkit-keyframes slidein {
   from {
-    margin-left: 100%;
-    width: 300%;
+    margin-left: 20%;
+    width: 100%;
   }
   to {
     margin-left: 0%;
@@ -939,8 +951,8 @@ h1 {
 }
 @keyframes slidein {
   from {
-    margin-left: 100%;
-    width: 300%;
+    margin-left: 20%;
+    width: 100%;
   }
   to {
     margin-left: 0%;
@@ -949,8 +961,8 @@ h1 {
 }
 @keyframes slidein {
   from {
-    margin-left: 100%;
-    width: 300%;
+    margin-left: 20%;
+    width: 100%;
   }
   to {
     margin-left: 0%;
